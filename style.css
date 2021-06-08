@@ -4,68 +4,114 @@ h1{
 h2{
     font-size: 30px;
 }
+h3{
+    padding-top:3%;
+}
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:sans-serif;
     margin: 0px;
 }
 .name-color{
-    color:skyblue;
+    color:rgb(241, 106, 91);
 }
-.likha-color{
-    color:gold;
+.button{
+    text-decoration: none;
+    background-image:linear-gradient(rgb(241, 109, 94),rgb(240, 138, 126));
+    padding: 14px 22px;
+    border-radius: 7px;
+    color:white;
 }
-.likha-chobi{
+.half{
     width: 40%;
     float: left;
     margin-left:3%;
     padding: 3%;
-    border:1px solid blue;
-}
-.likha-chobi img{
-    width:90%;
-}
-.top-banner{
-    background-image: url("images/top-banner.png");
-    background-repeat: no-repeat;
-}
-section{
-    height: 500px;
-    padding-bottom: 150px;
-}
-.button{
-    text-decoration: none;
-    background-image:linear-gradient(45deg,yellow,rgb(188, 233, 27));
-    padding: 10px 20px;
-    border-radius: 7px;
-    color:white;
-}
-.dream-area{
-    background-image:url("images/dream-bg.png");
-    background-repeat: no-repeat;
-    background-position: right;
-    border:1px solid red;
-}
-.experience{
-    background-image: url("images/exp-bg.png");
-    background-repeat: no-repeat;
-    background-position:left;
     
 }
-.experi{
-    box-shadow:10px 10px 40px rgb(160, 216, 230);
-    height: 40%;
-    width: 39%;
+.half img{
+    width:100%;
 }
-#brac{
-     border-left: 6px solid;
-     border-image:linear-gradient(rgb(0, 48, 45),rgb(29, 184, 223));
-     border-image-slice: 1;
+section{
+    height: 450px;
+    padding-bottom: 150px;
+   
 }
-#other{
-    border-left: 6px solid lightseagreen;
-    border-image:linear-gradient(rgb(212, 13, 123),rgb(226, 140, 190));
-    border-image-slice: 1;
-}
-footer{
+.topnav {
+    background-color:white;
+    overflow: hidden;
+    padding-right: 5%;
+  }
+  
+  .topnav a {
+    float: right;
+    color: black;
     text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .work{
+      width: 23%;
+      margin:2%;
+      float: left;
+      height: 67%;
+      box-shadow: 10px 10px 30px grey;
+      border-radius: 20px;
+      padding: 1%;
+      background-color: white;
+  }
+  .work img{
+      width: 100%;
+      height: 100%;
+  }
+  .three{
+      text-align: center;
+      padding-left: 11%;
+      background-color:rgb(240, 226, 240);
+      padding-top: 5%;
+  }
+  .likha{
+      text-align: left;
+      
+  }
+  .fourth{
+      text-align: center;
+      height: 350px;
+  }
+  footer{
+    text-align: center;
+}
+
+.bground{
+    height:200px;
+    width:700px;
+    margin: auto;
+    margin-top: 10%;
+    background-image: url("images/Group_33094_1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.side{
+    float: left;
+    color: white;
+    margin-top:7%;
+    padding-left:60px;
+}
+
+#side{
+    padding-left:200px;
+     padding-top:30px;
+    }
+.recwork{
+    width: 80px;
+    float: left;
+    height: 80px;
+}
+.recwork img{
+    width: 40%;
+    height: 40%;
+    
+}
+.foot{
+    margin-left: 41%;
 }
